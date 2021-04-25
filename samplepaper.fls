@@ -43,8 +43,6 @@ INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm0900.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr12.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx12.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.pdf
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi9.tfm
@@ -59,8 +57,10 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Bi
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\fig1.eps
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\fig1-eps-converted-to.pdf
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\fig1-eps-converted-to.pdf
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.pdf
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\fig1-eps-converted-to.pdf
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\fig1-eps-converted-to.pdf
+INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.aux
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
