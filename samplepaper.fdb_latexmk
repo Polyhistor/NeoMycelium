@@ -1,5 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1620808430 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.pdf" "samplepaper" 1620808433
+["bibtex samplepaper"] 1620812694 "samplepaper.aux" "samplepaper.bbl" "samplepaper" 1620812736
+  "./splncs04.bst" 1521108145 33694 ee21ae2a29028dc8ad842a97200982c7 ""
+  "references.bib" 1620812419 54 7fe9077afbae1edf60808a5fab90dd3e ""
+  "samplepaper.aux" 1620812734 1433 6c5ef850285257bf5f5bac9c17100fa4 "pdflatex"
+  (generated)
+  "samplepaper.blg"
+  "samplepaper.bbl"
+["pdflatex"] 1620812733 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.pdf" "samplepaper" 1620812736
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1619330631 10472 c3419f4840e48e6ea79d86f1a353eca1 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1591001589 10002695 3ddb406a357cf5f72ce241aa362eebce ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1619330623 129095 e4a02c068ec58a7834b5c37cb6614e69 ""
@@ -42,15 +49,16 @@
   "D:/MikTex/tex/latex/l3backend/l3backend-pdfmode.def" 1588833310 25681 ff44b84000da696ec5fec7018b319c95 ""
   "D:/MikTex/tex/latex/oberdiek/aliascnt.sty" 1577800046 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "D:/MikTex/tex/latex/tools/multicol.sty" 1580641284 31532 04852e45d7c17cb384689d2f83b628d3 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.aux" 1620808431 1483 40059308f5f2431cabf72ffa6eee4cc3 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex" 1620808432 6615 2d05907b24b64b8097352f092d066fb0 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.aux" 1620812734 1433 6c5ef850285257bf5f5bac9c17100fa4 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex" 1620812735 6658 dd447859f37c8180a3da4597a2a51520 ""
   "fig1.eps" 1507105273 357553 7e2b7e710693198613c8426973a2c3ce ""
   "llncs.cls" 1521108099 43467 b08ec23e994470d7d8fc268d245cf555 ""
-  "samplepaper.aux" 1620808431 1483 40059308f5f2431cabf72ffa6eee4cc3 "pdflatex"
-  "samplepaper.tex" 1620808432 6615 2d05907b24b64b8097352f092d066fb0 ""
+  "samplepaper.aux" 1620812734 1433 6c5ef850285257bf5f5bac9c17100fa4 "pdflatex"
+  "samplepaper.bbl" 1620812694 207 9a19382958a06855fcf17295542672b9 "bibtex samplepaper"
+  "samplepaper.tex" 1620812735 6658 dd447859f37c8180a3da4597a2a51520 ""
   (generated)
+  "samplepaper.log"
   "samplepaper.aux"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.pdf"
-  "samplepaper.log"
-  "samplepaper.pdf"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.log"
+  "samplepaper.pdf"

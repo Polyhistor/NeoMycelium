@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  12 MAY 2021 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  12 MAY 2021 21:45
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/samplepaper.tex"
@@ -235,23 +235,51 @@ Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 87.
 (pdftex.def)             Requested size: 347.12354pt x 143.29115pt.
 [1
 
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/fig1-eps-converted-to.pdf>] [3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.aux")
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `ref_lncs1' on page 2 undefined on input line 110.
+
+
+LaTeX Warning: Citation `ref_book1' on page 2 undefined on input line 111.
+
+
+LaTeX Warning: Citation `ref_proc1' on page 2 undefined on input line 111.
+
+
+LaTeX Warning: Citation `ref_url1' on page 2 undefined on input line 112.
+
+
+LaTeX Warning: Citation `ref_lncs1' on page 2 undefined on input line 113.
+
+
+LaTeX Warning: Citation `ref_book1' on page 2 undefined on input line 113.
+
+
+LaTeX Warning: Citation `ref_book1' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Citation `ref_proc1' on page 2 undefined on input line 114.
+
+
+LaTeX Warning: Citation `ref_url1' on page 2 undefined on input line 114.
+
+("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.bbl") [2 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/fig1-eps-converted-to.pdf>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.aux")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1607 strings out of 480795
- 22639 string characters out of 2913778
- 268935 words of memory out of 3000000
- 17634 multiletter control sequences out of 15000+200000
+ 1608 strings out of 480795
+ 22848 string characters out of 2913778
+ 268923 words of memory out of 3000000
+ 17632 multiletter control sequences out of 15000+200000
  537182 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,25p,1216b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,25p,1247b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.pdf" (3 pages, 194573 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\samplepaper.pdf" (2 pages, 191527 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
