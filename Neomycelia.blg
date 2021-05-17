@@ -26,45 +26,45 @@ Warning--empty year in Stricker
 Warning--empty year in Terrizzano
 Warning--empty year in Villari
 Warning--empty year in Williams
-You've used 59 entries,
+You've used 60 entries,
             2850 wiz_defined-function locations,
-            956 strings with 14957 characters,
-and the built_in function-call counts, 31186 in all, are:
-= -- 2411
-> -- 1048
-< -- 53
-+ -- 443
-- -- 372
-* -- 1903
-:= -- 4001
-add.period$ -- 76
-call.type$ -- 59
-change.case$ -- 391
+            963 strings with 15183 characters,
+and the built_in function-call counts, 31813 in all, are:
+= -- 2464
+> -- 1065
+< -- 55
++ -- 450
+- -- 378
+* -- 1943
+:= -- 4077
+add.period$ -- 77
+call.type$ -- 60
+change.case$ -- 397
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 2839
-empty$ -- 2818
-format.name$ -- 414
-if$ -- 6795
+cite$ -- 81
+duplicate$ -- 2895
+empty$ -- 2872
+format.name$ -- 421
+if$ -- 6936
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 600
-newline$ -- 183
-num.names$ -- 118
-pop$ -- 1242
+int.to.str$ -- 60
+missing$ -- 611
+newline$ -- 186
+num.names$ -- 120
+pop$ -- 1260
 preamble$ -- 1
-purify$ -- 304
+purify$ -- 309
 quote$ -- 0
-skip$ -- 863
+skip$ -- 884
 stack$ -- 0
-substring$ -- 1452
-swap$ -- 1514
-text.length$ -- 53
+substring$ -- 1493
+swap$ -- 1549
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 224
+type$ -- 228
 warning$ -- 21
-while$ -- 230
-width$ -- 61
-write$ -- 558
+while$ -- 235
+width$ -- 62
+write$ -- 568
 (There were 21 warnings)
