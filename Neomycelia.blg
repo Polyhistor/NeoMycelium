@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Neomycelia.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: splncs04.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--empty journal in chen2017big
+Warning--empty year in Cioroaica
+Warning--empty year in Derras
+Warning--empty year in GALSTER
+Warning--empty year in Klein
+Warning--empty journal in AtaeiHype
+You've used 31 entries,
+            2850 wiz_defined-function locations,
+            788 strings with 10117 characters,
+and the built_in function-call counts, 16365 in all, are:
+= -- 1257
+> -- 567
+< -- 28
++ -- 244
+- -- 202
+* -- 1009
+:= -- 2123
+add.period$ -- 34
+call.type$ -- 31
+change.case$ -- 202
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 1496
+empty$ -- 1462
+format.name$ -- 224
+if$ -- 3535
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 315
+newline$ -- 99
+num.names$ -- 62
+pop$ -- 635
+preamble$ -- 1
+purify$ -- 163
+quote$ -- 0
+skip$ -- 440
+stack$ -- 0
+substring$ -- 764
+swap$ -- 799
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 118
+warning$ -- 6
+while$ -- 123
+width$ -- 33
+write$ -- 297
+(There were 6 warnings)

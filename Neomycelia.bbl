@@ -1,0 +1,150 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{analytics2016age}
+Analytics, M.: The age of analytics: competing in a data-driven world. Tech.
+  rep., Technical report, San Francisco: McKinsey \& Company (2016)
+
+\bibitem{angelov2008contracting}
+Angelov, S., Grefen, P.: An e-contracting reference architecture. Journal of
+  Systems and Software  \textbf{81}(11),  1816--1844 (2008)
+
+\bibitem{angelov2009classification}
+Angelov, S., Grefen, P., Greefhorst, D.: A classification of software reference
+  architectures: Analyzing their success and effectiveness. In: 2009 Joint
+  Working IEEE/IFIP Conference on Software Architecture \& European Conference
+  on Software Architecture. pp. 141--150. IEEE (2009)
+
+\bibitem{ANSI}
+ANSI, A.: X3/sparc study group on dbms, interim report. SIGMOD FDT Bull
+  \textbf{7}(2) (1975)
+
+\bibitem{chen2017big}
+Chen, H.M., Kazman, R., Garbajosa, J., Gonzalez, E.: Big data value engineering
+  for business model innovation  (2017)
+
+\bibitem{Cioroaica}
+Cioroaica, E., Chren, S., Buhnova, B., Kuhn, T., Dimitrov, D.: Towards creation
+  of a reference architecture for trust-based digital ecosystems. In:
+  Proceedings of the 13th European Conference on Software Architecture-Volume
+  2. pp. 273--276
+
+\bibitem{Cloutier}
+Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
+  concept of reference architectures. Systems Engineering  \textbf{13}(1),
+  14--27 (2010)
+
+\bibitem{Derras}
+Derras, M., Deruelle, L., Douin, J.M., Levy, N., Losavio, F., Pollet, Y.,
+  Reiner, V.: Reference architecture design: A practical approach. In: ICSOFT.
+  pp. 633--640
+
+\bibitem{GALSTER}
+GALSTER, M., AVGERIOU, P.: Empirically-grounded reference architectures. Joint
+  ACM
+
+\bibitem{Gorton}
+Gorton, I., Klein, J.: Distribution, data, deployment. STC 2015 p.~78 (2015)
+
+\bibitem{heudecker2014survey}
+Heudecker, N., Kart, L.: Survey analysis: Big data investment grows but
+  deployments remain scarce in 2014. Stamford: Gartner  (2014)
+
+\bibitem{Huberty}
+Huberty, M.: Awaiting the second big data revolution: from digital noise to
+  value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
+  35--47 (2015)
+
+\bibitem{Klein}
+Klein, J., Buglak, R., Blockow, D., Wuttke, T., Cooper, B.: A reference
+  architecture for big data systems in the national security domain. In: 2016
+  IEEE/ACM 2nd International Workshop on Big Data Software Engineering
+  (BIGDSE). pp. 51--57. IEEE
+
+\bibitem{Kohler}
+Kohler, J., Specht, T.: Towards a Secure, Distributed, and Reliable Cloud-Based
+  Reference Architecture for Big Data in Smart Cities, pp. 38--70. IGI Global
+  (2019)
+
+\bibitem{lycett2013datafication}
+Lycett, M.: ‘datafication’: Making sense of (big) data in a complex world
+  (2013)
+
+\bibitem{Mannering}
+Mannering, F., Bhat, C.R., Shankar, V., Abdel-Aty, M.: Big data, traditional
+  data and the tradeoffs between prediction and causality in highway-safety
+  analysis. Analytic methods in accident research  \textbf{25},  100113 (2020)
+
+\bibitem{Nadal}
+Nadal, S., Herrero, V., Romero, O., Abelló, A., Franch, X., Vansummeren, S.,
+  Valerio, D.: A software reference architecture for semantic-aware big data
+  systems. Information and software technology  \textbf{90},  75--92 (2017)
+
+\bibitem{Nakagawa}
+Nakagawa, E.Y., Martins, R.M., Felizardo, K.R., Maldonado, J.C.: Towards a
+  process to design aspect-oriented reference architectures. In: XXXV Latin
+  American Informatics Conference (CLEI) 2009 (2009)
+
+\bibitem{Nash}
+Nash, H.: Cio survey 2015. Association with KPMG  (2015)
+
+\bibitem{norta2014reference}
+Norta, A., Grefen, P., Narendra, N.C.: A reference architecture for managing
+  dynamic inter-organizational business processes. Data \& Knowledge
+  Engineering  \textbf{91},  52--89 (2014)
+
+\bibitem{OATH}
+OATH: Oath reference architecture, release 2.0 initiative for open
+  authentication. OATH  (2007),
+  \url{https://openauthentication.org/wp-content/uploads/2015/09/ReferenceArchitectureVersion2.pdf}
+
+\bibitem{Partners}
+Partners, N.: Big data and ai executive survey 2019. Data and Innovation
+  (2019)
+
+\bibitem{AtaeiBigDataEnvirons}
+Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
+  Journal of Computer Science and Network Security (IJCSNS)  \textbf{17}(3),
+  ~38 (2017)
+
+\bibitem{AtaeiHype}
+Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
+  technologies: Big data as a service  (2017)
+
+\bibitem{Ranjan}
+Ranjan, J.: The 10 vs of big data framework in the context of 5 industry
+  verticals. Productivity  \textbf{59}(4) (2019)
+
+\bibitem{Selamat}
+Selamat, S.A.M., Prakoonwit, S., Sahandi, R., Khan, W.: Big Data and IoT
+  Opportunities for Small and Medium-Sized Enterprises (SMEs), pp. 77--88. IGI
+  Global (2019)
+
+\bibitem{Shafi}
+Shafi, M., Molisch, A.F., Smith, P.J., Haustein, T., Zhu, P., De~Silva, P.,
+  Tufvesson, F., Benjebbour, A., Wunder, G.: 5g: A tutorial overview of
+  standards, trials, challenges, deployment, and practice. IEEE journal on
+  selected areas in communications  \textbf{35}(6),  1201--1221 (2017)
+
+\bibitem{Shamseer}
+Shamseer, L., Moher, D., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M.,
+  Shekelle, P., Stewart, L.A.: Preferred reporting items for systematic review
+  and meta-analysis protocols (prisma-p) 2015: elaboration and explanation. Bmj
+   \textbf{349} (2015)
+
+\bibitem{Sievi-Korte}
+Sievi-Korte, O., Richardson, I., Beecham, S.: Software architecture design in
+  global software development: An empirical study. Journal of Systems and
+  Software  \textbf{158},  110400 (2019)
+
+\bibitem{Singh}
+Singh, N., Lai, K.H., Vejvar, M., Cheng, T.: Big data technology: Challenges,
+  prospects and realities. IEEE Engineering Management Review  (2019)
+
+\bibitem{Wu}
+Wu, H.: A reference architecture for Adaptive Hypermedia Applications. Citeseer
+  (2002)
+
+\end{thebibliography}
