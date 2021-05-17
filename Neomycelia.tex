@@ -101,99 +101,156 @@ The result of this SLR administered 23 RAs from extant literature, 18 RAs from a
 
 We found three common components among all RAs which are; big data management and storage nodes (relational, non-relational, graph, data lake, data finery, polyglot persistence), big data infrastructure nodes (latency, data transformation, in-memory data grids), and big data analytics and application nodes (real-time processing, batch processing, predictive analysis, spatial analysis). This underpinned our understanding for actual design and construction of the RA. The findings from this phase is further elaborated in section 5 of this paper.
 
-4. Construction of the RA: Based on the findings captured in phase 3, the initial design of the RA took place. Integral to this phase, was the underlying method to creation and design of RA. We followed ISO/IEC 42010 for architectural descriptions (Chaabane et al. 2017). The standard mostly revolves around concrete architectures and for that sake, our descriptions do not 100\% conform to it.
+\textbf{4. Construction of the RA}: Based on the findings captured in phase 3, the initial design of the RA took place. Integral to this phase, was the underlying method to creation and design of RA. We followed ISO/IEC 42010 for architectural descriptions \cite{Chaabane}. The standard mostly revolves around concrete architectures and for that sake, our descriptions do not 100\% conform to it.
 
-For instance, the standard has bolded the identification of system stakeholders (clause 5), however RAs are highly abstract and do not have a clear group of stakeholders (Ataei and Litchfield 2020). Another focal point in conveyance of architectural descriptions is the concept of views. In this case, ISO/IEC 42010, being the standard for concrete architectures, prescribe architecture views and viewpoints in the context of business and actual models (clause 4). This does not apply to this RA as well.
+For instance, the standard has bolded the identification of system stakeholders (clause 5), however RAs are highly abstract and do not have a clear group of stakeholders \cite{AtaeiACIS}. Another focal point in conveyance of architectural descriptions is the concept of views. In this case, ISO/IEC 42010, being the standard for concrete architectures, prescribe architecture views and viewpoints in the context of business and actual models (clause 4). This does not apply to this RA as well.
 
-Moreover, Beneken (2018) classified three different kind of RAs based on the views, namely functional, logical and technical. Along the lines, Vogel et al. (2009) classified RAs based on their usage context, as platform-specific, industry specific, industry crosscutting, and product line RAs.
+Moreover, \cite{Beneken} classified three different kind of RAs based on the views, namely functional, logical and technical. Along the lines, Vogel et al. \cite{Vogel} classified RAs based on their usage context, as platform-specific, industry specific, industry crosscutting, and product line RAs.
 
-Whereas different academic efforts aimed at classifying RAs based on different criteria, arguably several distinct views can adhere to one logical view as it has been seen in the case of pattern based reference architecture for serviced based system conducted by Stricker et al. (2010). This implies, that modules defined in technical review can potentially refine the modules of the logical view. Cloutier et al. (2010) suggests that a RA should address business, technical and customer context’s views.
+Whereas different academic efforts aimed at classifying RAs based on different criteria, arguably several distinct views can adhere to one logical view as it has been seen in the case of pattern based reference architecture for serviced based system conducted by Stricker et al. (\cite{Stricker}). This implies, that modules defined in technical review can potentially refine the modules of the logical view. Cloutier et al. (\cite{Cloutier}) suggests that a RA should address business, technical and customer context’s views.
 
 For the purposes of this study we do not address the business view of the RA, as this software RA aims at describing a functional, technical and logical views of a big data system. Business views and viewpoints can be developer later when detailed architectures are needed (Galster and Avgeriou 2011).
 After deciding on views and methods of describing architecture, and by analyzing the limitations of current RAs and by in-depth studies of the big data systems, the construction of the RA took place.
 
-5. Enable RA with variability: To allow for easier creation of concrete architectures from this RA, variability has been enabled for some modules. Based on the guidelines of Galster and Avgeriou (2011), there are two ways to enable variability: 1) variability models and 2) annotation of the RA. We chose the latter.
+\textbf{5. Enable RA with variability}: To allow for easier creation of concrete architectures from this RA, variability has been enabled for some modules. Based on the guidelines of Galster and Avgeriou (\cite{GALSTER}), there are two ways to enable variability: 1) variability models and 2) annotation of the RA. We chose the latter.
 
-6. Evaluation of the RA: Quality of the RA is determined based on two factors: 1) utility and correctness of the RA and 2) the support for instantiation and adoption of the RA. To achieve these factors, we have created a prototype of the RA and tested it in practice to solve a business problem. Nevertheless, because the RA has not been built from scratch, and has absorbed patterns and principles from existing RAs and architectures, and systems in practice, the focus of the evaluation was more towards sufficient support for effective instantiation.
-
-
-
-\subsection{A Subsection Sample}
-Please note that the first paragraph of a section or subsection is
-not indented. The first paragraph that follows a table, figure,
-equation etc. does not need an indent, either.
-
-Subsequent paragraphs, however, are indente
-
-\subsubsection{Sample Heading (Third Level)} Only two levels of
-headings should be numbered. Lower level headings remain unnumbered;
-they are formatted as run-in headings.
-
-\paragraph{Sample Heading (Fourth Level)}
-% The contribution should contain no more than four levels of
-% headings. Table~\ref{tab1} gives a summary of all heading levels.
-
-\begin{table}
-    \caption{Table captions should be placed above the
-        tables.}\label{tab1}
-    \begin{tabular}{|l|l|l|}
-        \hline
-        Heading level     & Example                                          & Font size and style \\
-        \hline
-        Title (centered)  & {\Large\bfseries Lecture Notes}                  & 14 point, bold      \\
-        1st-level heading & {\large\bfseries 1 Introduction}                 & 12 point, bold      \\
-        2nd-level heading & {\bfseries 2.1 Printing Area}                    & 10 point, bold      \\
-        3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold      \\
-        4th-level heading & {\itshape Lowest Level Heading.} Text follows    & 10 point, italic    \\
-        \hline
-    \end{tabular}
-\end{table}
+\textbf{6. Evaluation of the RA}: Quality of the RA is determined based on two factors: 1) utility and correctness of the RA and 2) the support for instantiation and adoption of the RA. To achieve these factors, we have created a prototype of the RA and tested it in practice to solve a business problem. Nevertheless, because the RA has not been built from scratch, and has absorbed patterns and principles from existing RAs and architectures, and systems in practice, the focus of the evaluation was more towards sufficient support for effective instantiation.
 
 
-\noindent Displayed equations are centered and set on a separate
-line.
-\begin{equation}
-    x + y = z
-\end{equation}
-Please try to avoid rasterized images for line-art diagrams and
-schemas. Whenever possible, use vector graphics instead (see
-Fig.~\ref{fig1}).
+\section{A microservices event-driven reference architecture for big data systems}
+
+In the first iteration of the research methodology discussed in previous section, in step 3, we have captured architectural data and studied common themes in current big data systems. This has laid the foundation of Neomycelia and has illuminated us on the architectural requirements of big data systems. Thus, before the actual design and creation of the software RA, we have first listed the principal characteristics of big data systems and how they should be incorporated into the final artefact.
+
+We have then introduced some of the well-known industrial patterns into the reference architecture and justified it. In what follows, we first discuss the principal characteristics of big data, we then discuss microservices and event driven approaches and justify it. From there on, we will represent the software RA and describe the building blocks.
+
+\subsection{Big data system characteristics}
+
+Big data has five principal characteristics: Volume, variety, velocity, veracity, and variability \cite{Nadal,AtaeiHype}. Volume refers to the amount of data passing through various pipelines. In a traditional setup, a data analyst might typically import a fragment of a data warehouse into specialized software for statistical analysis \cite{Ordonez} but this approach is often difficult to achieve with big data deployments. Velocity is the pace at which data flows into the system and gets processed. Commonly through data streams and, to effectively handle arrival irregularities, sliding windows \cite{Babcock}. Variety describes the heterogeneity of data formats. Data often arrives in various formats; structured, semi-structured, or pseudo-structured \cite{Terrizzano,AtaeiBigDataEnvirons}.
+
+Suitable architectural constructs must be created to address variety by, for example, normalizing or reformatting. Veracity refers to data quality, ensured by adherence to data governance protocols \cite{Plotkin}. Data provenance, data quality assessment, data cleansing, and data liveliness are some of the architectural factors that must be taken into consideration. Variability takes into account the evolving nature of data and how data are ingested, processed, and conveyed to the next node in the pipeline \cite{Nadal}. Therefore, Neomycelia must provide:
+
+\begin{itemize}
+    \item \textbf{Volume}: Capability of ingesting for massive data sets
+    \item \textbf{Velocity}: Enable ingesting from multiple data sources at different rates (scale to demand). It shall support batch-mode and live-stream processing.
+    \item \textbf{Variety}: Provide the means for rational processing across different data formats (structured, semi-structured, pseudo-structured)
+    \item \textbf{Veracity}: Ensure data quality standards are maintained and includes data provenance, quality, liveliness, and cleansing
+    \item \textbf{Variability}: Provide schema evaluation and effective interconnection
+\end{itemize}
+
+Taking the innate characteristics of big data into consideration, one should pay clear attention to quality attributes (Cloutier et al. 2010). Quality attributes help identify architectural requirements and key drives, and these requirements in turn result in appropriate patterns and tactics.
+For the purposes of this software RA, the main quality attributes chosen are modularity, extendibility, modifiability, scalability, maintainability and debuggability. These attributes are achieved through a decentralized and distributed approach called event-driven microservices. In the following sections, event-driven microservices will be discussed and justified.
+
+\subsection{From monolith to microservices}
+
+Recent approaches to software architecture tends towards increases in modularity and clearly defined boundaries \cite{Jamshidi}. The benefits derived of this shift sees organizations moving to design architectures as series of inter-communicating, yet independent services. Benefits include lower maintenance costs, increased ownership, more agile development, and better support for DevOps, versioning, and scaling \cite{Fritzsch}
+
+Most legacy systems today run on some kind of monolithic architecture. As monolithic applications grow, complexity and overheads increase, making maintenance a daunting task. Adopting new technologies in monolithic systems is difficult and if there exist design changes, the development team may need to put an immense amount of effort to meet new requirements.
+
+In addition, many monolithic systems are not integrated with recent cloud technologies and DevOps trends, for example introducing change or modification to an existing module is prone to side-effects and hard-to-find bugs \cite{Bass,Fritzsch}. Teams are not hundred percent autonomous and holocracy, if it has been adopted, is compromised.
+
+Most RAs and architectural patterns considered for this study have been designed with no attention to microservices. For instance, Lambda (\cite{Villari}) addresses speed, batches, and serving layers. The serving layer addresses the volume characteristics of big data by storing large amounts of heterogonous data in the master dataset.
+
+Velocity is addressed by having two different approaches to data processing, speed, and batch processing. While the speed layer usually deals with streams of data that need to be processed in real-time, the batch layer forwards data to the serving layer, and then batch views to allow query processing. Bolster \cite{Nadal} augments this architecture by adding a semantic layer which supports metadata.
+
+Meanwhile, the NIST Big Data RA \cite{Chang} is the most comprehensive big data RA. The RA is delineated in terms of fabrics, providers, and services. This RA focusses on monolithic systems and we could not identify the notion of independent services or clearly defined contexts for the services. Along the lines, there is the pattern based approach conducted by Stricker et al. (\cite{Stricker}) that is heavily inspired by the works of Gamma et al (\cite{Gamma}).
+
+\subsection{The microservices challenge}
+
+Whereas a microservices architecture offers a promising solution to issues related to monolithic systems, the implementation of it can be challenging.
+Sometimes referred to as a consequence of ‘monolithic microservices’, one of the key challenges of a successful microservices architecture is effective communication between services \cite{Munaf}.
+
+The basic approach to asynchronous communication is through REST calls, where a service makes a REST call to another service. This is referred to as point-to-point communication and is useful for cases where no response is required or when an admin task needs to be executed. But as services grow, the need for inter-communication increases and if one service is in a blocking state (for example, running a time consuming process), a ripple effect through the whole system is created.
+
+Another approach to asynchronous messaging in a microservices architecture is the publisher-subscriber (pub-sub) model. In this model, a central pub-sub construct (usually a message broker) sits at the heart of the architecture and facilitates communications. This means that, instead of microservices directly calling each other, they publish a new message to the message broker on a specific topic and all the subscribers to that topic will be notified.
+
+Any computational effort is then handled by the subscribers. Furthermore, a subscriber can be a publisher of message too \cite{Indrasiri}. In this case, the message broker is at the heart of the communications process.
+
+\subsection{An event driven approach}
+
+The approaches to microservices communication described require some sort of coupling. Thus, interfaces need to be declared, services need to know what other services are responsible for, how messages will be processed, and services may have dependencies related to other microservices. As microservices increase in number, the maintenance of microservice coupling becomes increasingly challenging.
+
+However, we assert that the concerns above are not the aim of a microservices architecture. Instead, an event driven model provides an effective means of addressing those issues. Point-to-point or pub-sub communication between microservices means that each service should recognise related interfaces and the requirements for downstream microservices \cite{Gupta,Molina}.
+
+The underlying mechanism of existing models is to issue a ‘command’, where one microservice sends commands to another microservice or topic.We provide a ‘dispatch and forget’ approach, in which a service dispatches an event to a central event backbone \cite{Michelson}.
+
+In this way, services do not need to know what happens after an event has been dispatched, they are only responsible for event dispatching through well-defined contracts. The underlying mechanism of this model is ‘event’. Thus, new services can be added, removed, configured, and scaled easily and more simply.
+
+The subtlety lies in the underlying approach, and philosophy of ‘event’ instead of ‘command’, which implies that modules react to a change of state rather than a command for action from another module. This approach solves the issue of long-running tasks that block and a service does not need to wait for another to complete its process.
+
+
+\section{Neomycelia}
+In this section, Neomycelia is described. Strong points for Neomycelia are its attention to metadata and data caching. With the exception of Bolster \cite{Nadal}, RAs scarcely include metadata. Metadata addresses a wide range of needs like security, privacy, scalability, and efficiency. In the context of  a distributed system, metadata bridges data stored in different functions such as in the Cloud versus that on premise \cite{Eichler}.
+
+Furthermore, there was no evidence of an RA that provides for data caching. Avoiding issues related to monolithic systems, and by adhering to principles of event-driven communications, the Neomycelia RA (\ref{NeomyceliaFig}) provides improved modularity, extendibility, modifiability, scalability, and maintainability. This is in line with quality attributes that has been set for evaluation purposes.
+
 
 \begin{figure}
-    \includegraphics[width=\textwidth]{fig1.eps}
-    \caption{A figure caption is always placed below the illustration.
-        Please note that short captions are centered, while long ones are
-        justified by the macro package automatically.} \label{fig1}
+    \includegraphics[width=\textwidth]{Neomycelia.png}
+    \caption{Neomycelia Software Reference Architecture.} \label{NeomyceliaFig}
 \end{figure}
 
-\begin{theorem}
-    This is a sample theorem. The run-in heading is set in bold, while
-    the following text appears in italics. Definitions, lemmas,
-    propositions, and corollaries are styled the same way.
-\end{theorem}
-%
-% the environments 'definition', 'lemma', 'proposition', 'corollary',
-% 'remark', and 'example' are defined in the LLNCS documentclass as well.
-%
-\begin{proof}
-    Proofs, examples, and remarks have the initial word in italics,
-    while the following text appears in normal font.
-\end{proof}
-For citations of references, we prefer the use of square brackets
-and consecutive numbers. Citations using labels or the author/year
-convention are also acceptable. The following bibliography provides
-% a sample reference list with entries for journal
-% articles~\cite{ref_article1}, an LNCS chapter~\cite{ref_lncs1}, a
-% book~\cite{ref_book1}, proceedings without editors~\cite{ref_proc1},
-% and a homepage~\cite{ref_url1}. Multiple citations are grouped
-% \cite{ref_article1,ref_lncs1,ref_book1},
-% \cite{ref_article1,ref_book1,ref_proc1,ref_url1}.
-% %
+Neomycelia is comprised of 14 essential architectural components. The terms node, and service are used interchangeably.
+
+\textbf{Gateway}: This is the main entry point and determines how messages are handled. Gateway acts as a reverse proxy that accepts all incoming requests from Application Programming Interfaces (API) and appoints them to appropriate services. This mechanism provides the security, scalability, and maintainability aspects of the RA.
+
+\textbf{Stream processing controller}: This service forwards requests to the stream processing service mesh. Low impact processes like basic sanitization, authentication, and potential validation take place here. Computationally expensive events are not processed in this node. The stream processing controller provides stream provenance and may decide which one-pass algorithm should run over what event stream.
+
+\textbf{Batch processing controller}: The function of this node is to forward requests to the batch processing service mesh. Low impact pre-processing such as preliminary normalization can take please in this node. It is necessary to avoid computationally expensive processes in this service.
+
+\textbf{Stream processing service mesh}: Based on the requirements for specific stream processing approaches, this service is comprised of an arbitrary number of nodes for stream processing. A cache manager keeps track of values processes in the event queue and keeps an event archive with a list of associated computed values. Each service has its own local database. Most stream processing algorithms are operating on in-memory stateful data structures, such as HyperLogLog, to compute distinct values and provide summary output. Different services can adopt unique processing and windowing approaches such as micro-batch processing and tuple-at-a-time (Sahal et al. 2020).
+
+To avoid obfuscation of the event backbone, each service in the service mesh will communicate its results through an internal message broker (an event queue) that is responsible for communication to the external entities. Linking service results to a message broker that communicate with the event backbone provides parallelism, encapsulates stream processing to its own service mesh, and provides abstraction.
+
+Any service may have a sidecar, or service proxy, attached to it. These proxies act as an intermediary to encapsulate networking and infrastructure needs of the service. Sidecars abstract out all the platform requirements necessary for the service to run. This allows software engineers to focus on what matters, development, and avoid being distracted by infrastructure issues.
+
+Finally, every service mesh will have a control tower which communicates with sidecars and acts as a centralized unit that registers, updates, and passes changes to the services through their proxy. For example, if all services in this service mesh need to update their SSL certificate monthly, they can do it through sidecar communication to the control tower.
+
+\textbf{Batch processing service mesh}: Similar to the stream processing service mesh, except that this does not require a message broker (event queue). Batch processes do not need to happen in real-time, so there is no advantage in providing parallelism. Every service can dispatch directly to the event backbone.
+
+\textbf{Service discovery}: As the number of services increases and deployment and configuration demands become more frequent, identification and invocation of appropriate services become daunting. Service discovery addresses this problem by being a central register for all services. This means, services can now utilize a central node to register their functionalities.
+
+\textbf{Monitoring}: A challenge for a microservices architecture is the ability to track, monitor, and log services behaviors. An event is dispatched from a service, which invokes another service, which in turn results in another dispatch. It’s a difficult task to identify errors in this chain with loosely coupled services but the monitoring service solves this problem by tracking usage and behavioral data from services. Data collection is provided by the service discovery unit. The architect and systems designer decide on the granularity of data collected from each service and log aggregation mechanisms.
+
+\textbf{Event backbone}: This is the heart of Neomycelia, facilitating communication between the parts of the system. Every service in the system communicates through event backbone as choreographed events, analogous to a dance troupe where everyone responds to the rhythm of the music and moves according to their specific role. Each service (dancer) listens to the event backbone (the music) and takes action only as required. Thus, a service is responsible only for dispatching an event in a ‘dispatch and forget’ model. Services listening on a specific topic execute the desired process and may dispatch another event to the event backbone.
+
+The event backbone is the sole controller of communication between services, through events. This allows development teams to focus on various services and develop independently. This also allows for simple plug-in and plug-out of a service, reducing concerns about side-effects. Moreover, a failure in a microservice is less likely to affect the whole system because the loss of availability is periodically checked and prevented.
+
+\textbf{Event archive}: Communications between services can sometimes be faulty. Services can timeout, there could be issues in the message contract, the existence of bugs, or type problems. One way to achieve an effective failure handling and recovery approach is through an event archive. This means, if an event fails, it can be retried and recovered because it was registered in an event archive. Furthermore, in the case of an event backbone service going down during an event transmission, the event backbone can recover itself by reading the events it had to handle from the event archive. This can be series of events or a single event.
+
+\textbf{Data Lake}: This contains structured, pseudo-structured, unstructured, and semi-structured data. In a generic setup, data is usually stored in the data lake before it is stream or batch processed. This may not provide the best-case scenario for all situations, so it is up to the architect to decide if that is the most appropriate  data flow in the system.
+
+\textbf{Semantic Layer}: This service mesh is the central hub for all metadata processing, containing the MetaData Management (MDM) system. The MDM is responsible for providing services with information to define and model raw data. This is where a domain vocabulary is defined and controlled by data stewards. The semantic layer provides the opportunity to store metadata, preparation rules, and data evolution and reduces the need for the data analyst or scientist to repeat work. Other semantic practices such as data source register, data transformation log, data cleaning, discretization are also catered for.
+
+\textbf{Policy Manager}: This service mesh is responsible for applying or checking policies about input data. In recent years, data privacy has presented as a challenge in big data management (Bashari Rad et al. 2016), so the policy manager aligns policies with various contexts to determine how data should be retrieved or processed, without significant coupling to the system. As the number of policies increase and are developed, more services can be added to this service mesh. The need for a new policy manager service mesh ought to be rare.
+
+\textbf{Query Controller}: This service determines the type of query received (stream, batch, or other) that come from the gateway and dispatches the event to the query engine. The controller performs straight forward pre-processing or sanitization as required but heavy computation should be avoided.
+
+\textbf{Query Engine}: This service processes query requests. Once values are created, an event is dispatched the subsequent service to return results.
+
+Neomycelia components are classified as required, variable, and optional. Neomycelia is governed by a strict decoupling rule, such that the removal of any service shall not affect other services. Gateway, event backbone, and event archive are required if the architect decides to adhere to the decoupling rule. However, an architect can decide to utilize another method of communication like orchestrated events or point-to-point protocol. The required service gateway provides load balancing, security, lower cumulative latencies, and code simplification. The required service event backbone provides communication between services. The required service event archive is a retry/fail mechanism for the event backbone. Variable services provided that a context is maintainable, in which the service mesh, controllers, monitoring and service discovery services are variable and can be substituted to meet contextual demands. Optional services include sidecars, control towers, event queues, cache manager services, service discovery service, monitoring service, semantic layer service mesh, and policy manager service mesh. A semantic service mesh and policy manager service mesh provides a solution for privacy and metadata issues in big data systems. An architect may implement a semantic service mesh but must determine if the company cope with the complexity.
+
+\section{Evaluation}
+
+RAs lack clearly defined stakeholders, exist at a high level of abstraction, and are highly adaptable \cite{AtaeiACIS}.RA evaluation is a challenge \cite{angelov2008contracting,Avgeriou,Cioroaica,Maier} because they are not the same as a typical architecture, therefore architecture analysis methods and tools like SAAM (\cite{KazmanSASM}), ALMA (\cite{Bengtsson}), PASA (\cite{Williams}), and ATAM (\cite{KazmanATAM}) cannot be applied. Evaluation of the RA assesses effectiveness, utility, and whether Neomycelia meets its requirements.
+
+This is achieved by evaluating the correctness and utility of the RA, and how efficiently adaptation can be instantiated \cite{GALSTER}. Quality is assessed by how the RA may be transformed into an effective organization-specific concrete architecture. Neomycelia inherits successful attributes from the RAs it is based on. A scenario-based evaluation has been selected that focusses on quality attributes.
+
+Evaluation is being undertaken in an Auckland-based company and being applied to new and existing workflows. The company provides practice management software to veterinary professionals via a Software as a Service (SaaS). The company serves over 15,000 clients from New Zealand, Australia, USA, UK, and Canada with some large equine hospitals and veterinary clinics. ISO/IEC 25000 SQuaRE standard (Software Product Quality Requirements and Evaluation) (\cite{Iso}) is selected as a reference quality model for technology selection. This model is described in terms of characteristics and sub-characteristics.
+
+The explanation of these characteristics is out of the scope of this paper.
+Countries adhere to local regulatory frameworks for drug prescriptions for animals, which means local jurisdictions control access to veterinary drugs as Restricted Veterinary Medicines (RVM). Under this protocol, all patients should be background-checked before a drug is dispensed. Therefore, real-time stream processing for background-checks and batch processing for billing triggers and reports generation.  In the future, the system may provide breed detection via image processing of animal photos.
+
+An instantiation of Neomycelia is developed that incorporates Kafka as the event backbone, AWS Lambda for the stream processing and batch processing controllers, Amazon API gateway as the gateway, Envoy for the sidecar services, Kubernetes as cluster manager, Docker for container technology, Resilience4J for a fault-tolerant communication module, Prometheus for the monitoring tool, Zookeeper for the service discovery tool, Istio as the service mesh control tower, Amazon RDS for services private database, Amazon S3 for the event archive, Amazon MQ as the message broker inside the mesh, an Amazon data lake, and Amazon EC2 for services.
+
+A simulation scenario with a request that emulates the system in production has been formulated. While only one topic was created this scenario, adding new topics and services or removing existing ones is fairly trivial. An API gateway has been engineered to pass the request to the representative Lambda. The Lamda performs straightforward preprocessing (adding properties or mutating JSON objects) on the data and dispatches an event to Kafka. In this case, the request needs to be checked against the policies available in that geographic region. Policies are coded in the policy manager services mesh and the controller decides if a request needs to go through a policy manager initially.
+
+The policy manager performs internal processing and decides if a property should be omitted or if the data can even be processed at all. Once done, the policy manager dispatches an event to the relevant topic. If processing is allowed, then the stream processing and batch processing service meshes that are listening for that topic will have their event handlers fired. In the case of batch processing, each service will take the data, process it and then dispatch another event. This is the same for stream processing, with the difference that the requests will go through the message broker first. The controller is also responsible for choosing the storage processing strategy. Whereas most requests are saved in the data warehouse first, many may need to go through stream processing before that and then be dispatched to the data warehouse.
+
+\section{Conclusion}
+
+As data-oriented technologies emerge, long-established ideologies toward the nature of system design and architecture are revolutionized. Companies are required to be prepared to tackle the apparent difficulty of this field and absorb the complexity. RAs provide a starting point to manage the complexity of big data. In the case of ambiguity towards what should be developed against need, architectures play an overarching role in describing the building blocks of the system and the ways in which blocks communicate to achieve the goals of the system. Future work on Neomycelia and other RAs address security concerns and creating more complex and distributed metadata management technologies.
+
 % ---- Bibliography ----
-%
-% BibTeX users should specify bibliography style 'splncs04'.
-% References will then be sorted and formatted in the correct style.
-%
 \bibliographystyle{splncs04}
 \bibliography{references}
 

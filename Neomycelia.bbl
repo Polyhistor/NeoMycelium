@@ -21,6 +21,41 @@ Angelov, S., Grefen, P., Greefhorst, D.: A classification of software reference
 ANSI, A.: X3/sparc study group on dbms, interim report. SIGMOD FDT Bull
   \textbf{7}(2) (1975)
 
+\bibitem{AtaeiACIS}
+Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
+  literature review  (2020)
+
+\bibitem{Avgeriou}
+Avgeriou, P.: Describing, instantiating and evaluating a reference
+  architecture: A case study. Enterprise Architecture Journal  \textbf{342},
+  1--24 (2003)
+
+\bibitem{Babcock}
+Babcock, B., Babu, S., Datar, M., Motwani, R., Widom, J.: Models and issues in
+  data stream systems. In: Proceedings of the twenty-first ACM
+  SIGMOD-SIGACT-SIGART symposium on Principles of database systems. pp. 1--16
+
+\bibitem{Bass}
+Bass, L., Weber, I., Zhu, L.: DevOps: A software architect's perspective.
+  Addison-Wesley Professional (2015)
+
+\bibitem{Beneken}
+Beneken, G.: Referenzarchitekturen  (2018)
+
+\bibitem{Bengtsson}
+Bengtsson, P., Lassing, N., Bosch, J., van Vliet, H.: Architecture-level
+  modifiability analysis (alma). Journal of Systems and Software
+  \textbf{69}(1-2),  129--147 (2004)
+
+\bibitem{Chaabane}
+Chaabane, M., Bouassida, I., Jmaiel, M.: System of systems software
+  architecture description using the iso/iec/ieee 42010 standard. In:
+  Proceedings of the Symposium on Applied Computing. pp. 1793--1798
+
+\bibitem{Chang}
+Chang, W.L., Boyd, D.: Nist big data interoperability framework: Volume 6, big
+  data reference architecture. Report (2018)
+
 \bibitem{chen2017big}
 Chen, H.M., Kazman, R., Garbajosa, J., Gonzalez, E.: Big data value engineering
   for business model innovation  (2017)
@@ -41,12 +76,30 @@ Derras, M., Deruelle, L., Douin, J.M., Levy, N., Losavio, F., Pollet, Y.,
   Reiner, V.: Reference architecture design: A practical approach. In: ICSOFT.
   pp. 633--640
 
+\bibitem{Eichler}
+Eichler, R.K.: Metadata management in the data lake architecture. Thesis (2019)
+
+\bibitem{Fritzsch}
+Fritzsch, J., Bogner, J., Zimmermann, A., Wagner, S.: From monolith to
+  microservices: A classification of refactoring approaches. In: International
+  Workshop on Software Engineering Aspects of Continuous Development and New
+  Paradigms of Software Production and Deployment. pp. 128--141. Springer
+
 \bibitem{GALSTER}
 GALSTER, M., AVGERIOU, P.: Empirically-grounded reference architectures. Joint
   ACM
 
+\bibitem{Gamma}
+Gamma, E.: Design patterns: elements of reusable object-oriented software.
+  Pearson Education India (1995)
+
 \bibitem{Gorton}
 Gorton, I., Klein, J.: Distribution, data, deployment. STC 2015 p.~78 (2015)
+
+\bibitem{Gupta}
+Gupta, P., Mokal, T.P., Shah, D., Satyanarayana, K.: Event-driven soa-based iot
+  architecture. In: International Conference on Intelligent Computing and
+  Applications. pp. 247--258. Springer
 
 \bibitem{heudecker2014survey}
 Heudecker, N., Kart, L.: Survey analysis: Big data investment grows but
@@ -56,6 +109,31 @@ Heudecker, N., Kart, L.: Survey analysis: Big data investment grows but
 Huberty, M.: Awaiting the second big data revolution: from digital noise to
   value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
   35--47 (2015)
+
+\bibitem{Indrasiri}
+Indrasiri, K., Siriwardena, P.: Microservices for the enterprise. Apress,
+  Berkeley  (2018)
+
+\bibitem{Iso}
+Iso, I.: Iec25010: 2011 systems and software engineering–systems and software
+  quality requirements and evaluation (square)–system and software quality
+  models. International Organization for Standardization  \textbf{34}, ~2910
+  (2011)
+
+\bibitem{Jamshidi}
+Jamshidi, P., Pahl, C., Mendonça, N.C., Lewis, J., Tilkov, S.: Microservices:
+  The journey so far and challenges ahead. IEEE Software  \textbf{35}(3),
+  24--35 (2018)
+
+\bibitem{KazmanSASM}
+Kazman, R., Abowd, G., Bass, L., Clements, P.: Scenario-based analysis of
+  software architecture. IEEE software  \textbf{13}(6),  47--55 (1996)
+
+\bibitem{KazmanATAM}
+Kazman, R., Klein, M., Barbacci, M., Longstaff, T., Lipson, H., Carriere, J.:
+  The architecture tradeoff analysis method. In: Proceedings. Fourth IEEE
+  International Conference on Engineering of Complex Computer Systems (Cat. No.
+  98EX193). pp. 68--78. IEEE
 
 \bibitem{Klein}
 Klein, J., Buglak, R., Blockow, D., Wuttke, T., Cooper, B.: A reference
@@ -72,10 +150,29 @@ Kohler, J., Specht, T.: Towards a Secure, Distributed, and Reliable Cloud-Based
 Lycett, M.: ‘datafication’: Making sense of (big) data in a complex world
   (2013)
 
+\bibitem{Maier}
+Maier, M., Serebrenik, A., Vanderfeesten, I.: Towards a big data reference
+  architecture. University of Eindhoven  (2013)
+
 \bibitem{Mannering}
 Mannering, F., Bhat, C.R., Shankar, V., Abdel-Aty, M.: Big data, traditional
   data and the tradeoffs between prediction and causality in highway-safety
   analysis. Analytic methods in accident research  \textbf{25},  100113 (2020)
+
+\bibitem{Michelson}
+Michelson, B.M.: Event-driven architecture overview. Patricia Seybold Group
+  \textbf{2}(12),  10--1571 (2006)
+
+\bibitem{Molina}
+Molina, J.M., García, J.F., Jiménez, C.K.: Archer: An event-driven
+  architecture for cyber-physical systems. In: 2018 IEEE/ACM International
+  Conference on Utility and Cloud Computing Companion (UCC Companion). pp.
+  335--340. IEEE
+
+\bibitem{Munaf}
+Munaf, R.M., Ahmed, J., Khakwani, F., Rana, T.: Microservices architecture:
+  Challenges and proposed conceptual design. In: 2019 International Conference
+  on Communication Technologies (ComTech). pp. 82--87. IEEE
 
 \bibitem{Nadal}
 Nadal, S., Herrero, V., Romero, O., Abelló, A., Franch, X., Vansummeren, S.,
@@ -100,9 +197,17 @@ OATH: Oath reference architecture, release 2.0 initiative for open
   authentication. OATH  (2007),
   \url{https://openauthentication.org/wp-content/uploads/2015/09/ReferenceArchitectureVersion2.pdf}
 
+\bibitem{Ordonez}
+Ordonez, C.: Statistical model computation with udfs. IEEE Transactions on
+  Knowledge and Data Engineering  \textbf{22}(12),  1752--1765 (2010)
+
 \bibitem{Partners}
 Partners, N.: Big data and ai executive survey 2019. Data and Innovation
   (2019)
+
+\bibitem{Plotkin}
+Plotkin, D.: Data stewardship: An actionable guide to effective data management
+  and data governance. Academic Press (2020)
 
 \bibitem{AtaeiBigDataEnvirons}
 Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
@@ -142,6 +247,29 @@ Sievi-Korte, O., Richardson, I., Beecham, S.: Software architecture design in
 \bibitem{Singh}
 Singh, N., Lai, K.H., Vejvar, M., Cheng, T.: Big data technology: Challenges,
   prospects and realities. IEEE Engineering Management Review  (2019)
+
+\bibitem{Stricker}
+Stricker, V., Lauenroth, K., Corte, P., Gittler, F., De~Panfilis, S., Pohl, K.:
+  Creating a reference architecture for service-based systems-a pattern-based
+  approach. In: Future Internet Assembly. pp. 149--160
+
+\bibitem{Terrizzano}
+Terrizzano, I.G., Schwarz, P.M., Roth, M., Colino, J.E.: Data wrangling: The
+  challenging yourney from the wild to the lake. In: CIDR
+
+\bibitem{Villari}
+Villari, M., Celesti, A., Fazio, M., Puliafito, A.: Alljoyn lambda: An
+  architecture for the management of smart environments in iot. In: 2014
+  International Conference on Smart Computing Workshops. pp. 9--14. IEEE
+
+\bibitem{Vogel}
+Vogel, O., Arnold, I., Chughtai, A., Ihler, E., Kehrer, T., Mehlig, U., Zdun,
+  U.: Software-architektur: Grundlagen–konzepte. Praxis  \textbf{2} (2009)
+
+\bibitem{Williams}
+Williams, L.G., Smith, C.U.: Pasasm: a method for the performance assessment of
+  software architectures. In: Proceedings of the 3rd international workshop on
+  Software and performance. pp. 179--189
 
 \bibitem{Wu}
 Wu, H.: A reference architecture for Adaptive Hypermedia Applications. Citeseer
