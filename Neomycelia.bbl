@@ -17,10 +17,6 @@ Angelov, S., Grefen, P., Greefhorst, D.: A classification of software reference
   Working IEEE/IFIP Conference on Software Architecture \& European Conference
   on Software Architecture. pp. 141--150. IEEE (2009)
 
-\bibitem{ANSI}
-ANSI, A.: X3/sparc study group on dbms, interim report. SIGMOD FDT Bull
-  \textbf{7}(2) (1975)
-
 \bibitem{AtaeiACIS}
 Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
   literature review  (2020)
@@ -191,11 +187,6 @@ Nash, H.: Cio survey 2015. Association with KPMG  (2015)
 Norta, A., Grefen, P., Narendra, N.C.: A reference architecture for managing
   dynamic inter-organizational business processes. Data \& Knowledge
   Engineering  \textbf{91},  52--89 (2014)
-
-\bibitem{OATH}
-OATH: Oath reference architecture, release 2.0 initiative for open
-  authentication. OATH  (2007),
-  \url{https://openauthentication.org/wp-content/uploads/2015/09/ReferenceArchitectureVersion2.pdf}
 
 \bibitem{Ordonez}
 Ordonez, C.: Statistical model computation with udfs. IEEE Transactions on

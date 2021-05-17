@@ -20,10 +20,10 @@
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
-\author{Pouya Ataei\inst{1}\orcidID{0000-0002-0993-3574} \and
-    Alan Litchfield\inst{1}\orcidID{0000-0002-3876-0940}}
+% \author{Pouya Ataei\inst{1}\orcidID{0000-0002-0993-3574} \and
+%     Alan Litchfield\inst{1}\orcidID{0000-0002-3876-0940}}
 %
-\authorrunning{P. Ataei et al.}
+% \authorrunning{P. Ataei et al.}
 % First names are abbreviated in the running head.
 % If there are more than two authors, 'et al.' is used.
 %
@@ -36,7 +36,7 @@
 \begin{abstract}
     The big data revolution began when the volume, velocity, and variety of data completely overwhelmed the systems used to store, manipulate and analyze that data. As a result, a new class of software systems emerged called big data systems. While many attempted to harness the power of these new systems, it is estimated that approximately 75\% of the big data projects have failed within the last decade. One of the root causes of this is software engineering and architecture aspect of these systems. This paper aims to facilitate big data system development by introducing a software reference architecture. The work provides an event driven microservices architecture that addresses specific limitations in current big data reference architectures (RA). The artefact development has followed the principles of empirically grounded RAs. The RA has been evaluated by developing a prototype that solves a real-world problem in practice. At the end, succesful implementation of the reference architecture have been presented. The results displayed a good degree of applicability with respect to quality factors.
 
-    \keywords{Reference architecture \and Architecture \and Big data reference architecture \and Big data architecture \and Big data systems \and Big data software engineering \and Big data and microservices \and Event driven big data systems \and Event driven \and Microservices}
+    \keywords{Reference architecture \and Architecture \and Big data reference architecture \and Big data architecture \and Big data systems \and Big data software engineering \and Event driven \and Microservices}
 \end{abstract}
 %
 %
@@ -44,11 +44,11 @@
 \section{Introduction}
 The ubiquity of digital devices, the networking infrastructure of today, and the proliferation of software applications, have augmented users’ capability to produce data at an unprecedented rate \cite{AtaeiHype}. In a world where we have an average processing power of 1.5 GHz on smart phones, and up to 8 GHz on laptops running on a network infrastructure that will support up to 25 Mbps of transmission per second, data becomes the new oil, the atom, the dot that lays the foundation of a nexus \cite{Shafi}.
 
-BD is a term that was initially coined to refer to the gradual growth and availability of data \cite{lycett2013datafication}. BD is an endeavor to harness patterns behind vast amounts of data for the purposes of improvement, control, and prediction. Roughly 10 years ago, the BD revolution began when the volume, velocity, and variety of data completely overwhelmed the systems used to store, manipulate and analyze that data \cite{heudecker2014survey,AtaeiBigDataEnvirons}. The concept of BD is a game-changing innovation \cite{chen2017big}, heralds the dawn of a new industrial revolution \cite{Huberty}, and creates a new category of economic asset.
+Big data (BD) is a term that was initially coined to refer to the gradual growth and availability of data \cite{lycett2013datafication}. BD is an endeavor to harness patterns behind vast amounts of data for the purposes of improvement, control, and prediction. Roughly 10 years ago, the BD revolution began when the volume, velocity, and variety of data completely overwhelmed the systems used to store, manipulate and analyze that data \cite{heudecker2014survey,AtaeiBigDataEnvirons}. The concept of BD is a game-changing innovation \cite{chen2017big}, heralds the dawn of a new industrial revolution \cite{Huberty}, and creates a new category of economic asset.
 
 Nevertheless, BD is not always better data or a magic wand that enchants any business or process. Actually, it can very easily cause losses \cite{Ranjan}. It is estimated that approximately 75\% of the BD projects have failed within the last decade according to multiple sources \cite{Partners,analytics2016age,Nash,heudecker2014survey}. Among challenges of adopting BD, the most repeatedly discussed are 1) Architectural and system development challenges, 2) Organizational challenges, and 3) Rapid technology change \cite{chen2017big,AtaeiHype,Singh}. The focus of this study is on architectural and system development challenges.
 
-Today, most BD systems are developed as ad-hoc and complicated architectural solutions that do not tend to adhere to many principles of software engineering \cite{Gorton,Nadal}. In addition, as the ecosystem of big data grows and new technologies are introduced, architects will have harder time to select and orchestrate the right technology to produce the right results \cite{Nadal}.
+Today, most BD systems are developed as ad-hoc and complicated architectural solutions that do not tend to adhere to many principles of software engineering \cite{Gorton,Nadal}. In addition, as the ecosystem of BD grows and new technologies are introduced, architects will have harder time to select and orchestrate the right technology to produce the right results \cite{Nadal}.
 
 This can create a foundation for an immature architectural decision that results in a solution that is hard to maintain, hard to scale, and may raise high-entry barriers.  Since the approach of ad-hoc design for BD systems is undesirable and leaves many engineers in the dark, novel software engineering approaches specialized for BD systems are required. To contribute towards this goal, we explore the notion of RAs and present a software reference architecture, Neomycelia.
 
@@ -57,21 +57,13 @@ In the case of ambiguity towards what should be developed to address what needs,
 
 \section{Why Reference Architectures?}
 
-Big data is an interplay of analytics methods, software engineering through development and data engineering, and organizational workflows \cite{Mannering,Selamat}. Such complex systems are best approached through the lens of architecture and well-thought out design documents. Utilization of RAs for complex systems is not something new.
+BD is an interplay of analytics methods, software engineering through development and data engineering, and organizational workflows \cite{Mannering,Selamat}. Such complex systems are best approached through the lens of architecture and well-thought out design documents. Utilization of RAs for complex systems is not something new.
 
 In fact, practitioners of complex systems, software engineers, and system designers have been frequently using reference architectures to have a collective understanding of system components, functionalities, data-flows and patterns which shape the overall qualities of system and help further adjust it to the business objectives \cite{Kohler,Cloutier}. In software product line (SPL) development, reference architectures are generic schemas that can be configured and instantiated for a particular domain of systems \cite{Derras}. In software engineering, reference architecture (RA) can be defined as means to represent and transfer knowledge that bridges from the problem domain to a family of solutions \cite{Klein}.
 
-RAs serve as a mechanism that embodies domain relevant qualities and concepts, breaks down the solutions and generates a terminology to facilitate effective communication, and illuminates various stakeholders and system designers \cite{Klein}. This allows RAs to provide an opportunity for early identification of design issues, when making changes is still cheap. This has several side-benefits such as:
-\begin{enumerate}
-    \item Ensuring cross-cutting concerns are addressed
-    \item Scales the knowledge of architects and engineers across the organization
-    \item Helps achieving consensus around major design choices
-    \item Creates the foundation of organization memory around design decisions
-    \item Acts as a blueprint and a summary artefact in the portfolio of the architects and software engineers
-\end{enumerate}
+RAs serve as a mechanism that embodies domain relevant qualities and concepts, breaks down the solutions and generates a terminology to facilitate effective communication, and illuminates various stakeholders and system designers \cite{Klein}. This allows RAs to provide an opportunity for early identification of design issues, when making changes is still cheap. This has several side-benefits such as: 1) Ensuring cross-cutting concerns are addressed, 2) Scales the knowledge of architects and engineers across the organization, 3) Helps achieving consensus around major design choices, 4) Creates the foundation of organization memory around design decisions, 5) Acts as a blueprint and a summary artefact in the portfolio of the architects and software engineers
 
-
-Many of the prevalent technologies in the industry have stemmed from a RA \cite{Cioroaica}. OATH is a commonly used protocol for authentication over the web and the OATH RA is the result of an industry-wide collaboration using open standards \cite{OATH}. Similarly, the ANSI-SPARC architecture, based on the ANSI-SPARC design standard for database management systems \cite{ANSI}, grew to become common among practitioners.
+% Many of the prevalent technologies in the industry have stemmed from a RA \cite{Cioroaica}. OATH is a commonly used protocol for authentication over the web and the OATH RA is the result of an industry-wide collaboration using open standards \cite{OATH}. Similarly, the ANSI-SPARC architecture, based on the ANSI-SPARC design standard for database management systems \cite{ANSI}, grew to become common among practitioners.
 
 
 \section{Research Methodology}
@@ -79,7 +71,7 @@ Many of the prevalent technologies in the industry have stemmed from a RA \cite{
 
 To increase systematicity and allow for reproducibility of Neomycelia, we follow the guidelines presented in empirically-grounded RAs \cite{GALSTER}. In essence, “empirically grounded” implies two major aspects: 1) “empirical foundation” which implies that Neomycelia must be grounded in proven principles (domain problems, practical concepts), and 2) “empirical validity” which implies that RA needs to be evaluated for applicability and validity. This research methodology is based on two main pillars: 1) existing RAs and 2) literature on RAs. The process follows these 6 steps:
 
-\textbf{1. Decision on type of the RA}:  A classification framework presented by Angelov et al (\cite{angelov2009classification}) is applied. In this study, five types of RAs have been described from which our RA matches type five (facilitation architectures designed to be implemented in multiple organizations). Thus, this RA aims to facilitate the design of big data systems across multiple organizations. Examples of similar RAs are ERA \cite{angelov2008contracting}, AHA \cite{Wu}, and eSRA \cite{norta2014reference}
+\textbf{1. Decision on type of the RA}:  A classification framework presented by Angelov et al (\cite{angelov2009classification}) is applied. In this study, five types of RAs have been described from which our RA matches type five (facilitation architectures designed to be implemented in multiple organizations). Thus, this RA aims to facilitate the design of BD systems across multiple organizations. Examples of similar RAs are ERA \cite{angelov2008contracting}, AHA \cite{Wu}, and eSRA \cite{norta2014reference}
 
 \textbf{2. Design Strategy}: There are two general approaches to the development of RAs; developing RAs from scratch or from existing architectures. Our RA is developed based on existing architectures and available literature.
 
@@ -87,7 +79,7 @@ To increase systematicity and allow for reproducibility of Neomycelia, we follow
 
 Therefore, to increase systematicity and transparency of this research, we conducted a systematic literature review (SLR) to capture current best evidence from the available literature. For this purpose we follow the guidelines of PRISMA presented by Shamseer et al. (\cite{Shamseer}).
 
-Our aim was to find all available big data reference architectures in literature and gray literature. This has helped by grounding a solid formation for development of Neomycelia. We’ve selected IEEE Explore, ScienceDirect, SpringerLink, ACM library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The search keywords used are 'Big Data Reference Architectures', 'Reference Architectures in the domain of Big Data', and 'Reference Architectures and Big Data';
+Our aim was to find all available BD reference architectures in literature and gray literature. This has helped by grounding a solid formation for development of Neomycelia. We’ve selected IEEE Explore, ScienceDirect, SpringerLink, ACM library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The search keywords used are 'Big Data Reference Architectures', 'Reference Architectures in the domain of Big Data', and 'Reference Architectures and Big Data';
 
 In the first phase of the SLR (identification), 84 literature has been pooled. Out of this pool, 57 study has been selected based on our inclusion, exclusion and quality criteria. Studied that provided with detailed analysis and practice have been included. Studied that provided with substantial case studies have been included. Papers that discussed current BD RAs, it’s ecosystems and drivers have been included. Papers that are recent (in the range of 2010-2020) have been included.
 
@@ -99,7 +91,7 @@ We used the software Nvivo for classifying and coding the literature. We defined
 
 The result of this SLR administered 23 RAs from extant literature, 18 RAs from academia, 4 from practice, 1 through the collaboration of both domains. Majority of the RAs have been in the form of short papers, but there has been few detailed RAs as well. The exact detail and listing of the RAs are out of the scope of this study, however, there will be mentions to various RAs for comparison, inference purposes.
 
-We found three common components among all RAs which are; big data management and storage nodes (relational, non-relational, graph, data lake, data finery, polyglot persistence), big data infrastructure nodes (latency, data transformation, in-memory data grids), and big data analytics and application nodes (real-time processing, batch processing, predictive analysis, spatial analysis). This underpinned our understanding for actual design and construction of the RA.
+We found three common components among all RAs which are; BD management and storage nodes (relational, non-relational, graph, data lake, data finery, polyglot persistence), BD infrastructure nodes (latency, data transformation, in-memory data grids), and BD analytics and application nodes (real-time processing, batch processing, predictive analysis, spatial analysis). This underpinned our understanding for actual design and construction of the RA.
 
 \textbf{4. Construction of the RA}: Based on the findings captured in previous step, the initial design of the RA took place. Integral to this phase, was the underlying method to creation and design of RA. We followed ISO/IEC 42010 for architectural descriptions \cite{Chaabane}. The standard mostly revolves around concrete architectures and because of that, our descriptions do not 100\% conform to it.
 
@@ -109,8 +101,8 @@ Moreover, Beneken et al (\cite{Beneken}) classified three different kind of RAs 
 
 Whereas different academic efforts aimed at classifying RAs based on different criteria, arguably several distinct views can adhere to one logical view as it has been seen in the case of pattern based reference architecture for serviced based system conducted by Stricker et al. (\cite{Stricker}). This implies, that modules defined in technical review can potentially refine the modules of the logical view. Furthermore, Cloutier et al. (\cite{Cloutier}) suggests that a RA should address business, technical and customer context’s views.
 
-For the purposes of this study we do not address the business view of the RA, as this software RA aims at describing a functional, technical and logical views of a big data system. Business views and viewpoints can be developed later when detailed architectures are needed (Galster and Avgeriou 2011).
-After deciding on views and methods of describing architecture, and by analyzing the limitations of current RAs and by in-depth studies of the big data systems, the construction of the RA took place.
+For the purposes of this study we do not address the business view of the RA, as this software RA aims at describing a functional, technical and logical views of a BD system. Business views and viewpoints can be developed later when detailed architectures are needed (Galster and Avgeriou 2011).
+After deciding on views and methods of describing architecture, and by analyzing the limitations of current RAs and by in-depth studies of the BD systems, the construction of the RA took place.
 
 \textbf{5. Enable RA with variability}: To allow for easier creation of concrete architectures from this RA, variability has been enabled for some modules. Based on the guidelines of Galster and Avgeriou (\cite{GALSTER}), there are two ways to enable variability: 1) variability models and 2) annotation of the RA. We chose the latter.
 
@@ -119,13 +111,13 @@ After deciding on views and methods of describing architecture, and by analyzing
 
 \section{A microservices event-driven reference architecture for big data systems}
 
-In the first iteration of the research methodology discussed in previous section, in step 3, we have captured architectural data and studied common themes in current big data systems. This has laid the foundation of Neomycelia and has illuminated us on the architectural requirements of big data systems. Thus, before the actual design and creation of the software RA, we have first listed the principal characteristics of big data systems and how they should be incorporated into the final artefact.
+In the first iteration of the research methodology discussed in previous section, in step 3, we have captured architectural data and studied common themes in current BD systems. This has laid the foundation of Neomycelia and has illuminated us on the architectural requirements of BD systems. Thus, before the actual design and creation of the software RA, we have first listed the principal characteristics of BD systems and how they should be incorporated into the final artefact.
 
-We have then introduced some of the well-known industrial patterns into the reference architecture and justified it. In what follows, we first discuss the principal characteristics of big data, we then discuss microservices and event driven approaches and justify it. From there on, we will represent the software RA and describe the building blocks.
+We have then introduced some of the well-known industrial patterns into the reference architecture and justified it. In what follows, we first discuss the principal characteristics of BD, we then discuss microservices and event driven approaches and justify it. From there on, we will represent the software RA and describe the building blocks.
 
 \subsection{Big data system characteristics}
 
-Big data has five principal characteristics: Volume, variety, velocity, veracity, and variability \cite{Nadal,AtaeiHype}. Volume refers to the amount of data passing through various pipelines. In a traditional setup, a data analyst might typically import a fragment of a data warehouse into specialized software for statistical analysis \cite{Ordonez} but this approach is often difficult to achieve with big data deployments. Velocity is the pace at which data flows into the system and gets processed. Commonly through data streams and, to effectively handle arrival irregularities, sliding windows \cite{Babcock}. Variety describes the heterogeneity of data formats. Data often arrives in various formats; structured, semi-structured, or pseudo-structured \cite{Terrizzano,AtaeiBigDataEnvirons}.
+BD has five principal characteristics: Volume, variety, velocity, veracity, and variability \cite{Nadal,AtaeiHype}. Volume refers to the amount of data passing through various pipelines. In a traditional setup, a data analyst might typically import a fragment of a data warehouse into specialized software for statistical analysis \cite{Ordonez} but this approach is often difficult to achieve with BD deployments. Velocity is the pace at which data flows into the system and gets processed. Commonly through data streams and, to effectively handle arrival irregularities, sliding windows \cite{Babcock}. Variety describes the heterogeneity of data formats. Data often arrives in various formats; structured, semi-structured, or pseudo-structured \cite{Terrizzano,AtaeiBigDataEnvirons}.
 
 Suitable architectural constructs must be created to address variety by, for example, normalizing or reformatting. Veracity refers to data quality, ensured by adherence to data governance protocols \cite{Plotkin}. Data provenance, data quality assessment, data cleansing, and data liveliness are some of the architectural factors that must be taken into consideration. Variability takes into account the evolving nature of data and how data are ingested, processed, and conveyed to the next node in the pipeline \cite{Nadal}. Therefore, Neomycelia must provide:
 
@@ -137,8 +129,13 @@ Suitable architectural constructs must be created to address variety by, for exa
     \item \textbf{Variability}: Provide schema evaluation and effective interconnection
 \end{itemize}
 
-Taking the innate characteristics of big data into consideration, one should pay clear attention to quality attributes (Cloutier et al. 2010). Quality attributes help identify architectural requirements and key drives, and these requirements in turn result in appropriate patterns and tactics.
-For the purposes of this software RA, the main quality attributes chosen are modularity, extendibility, modifiability, scalability, maintainability and debuggability. These attributes are achieved through a decentralized and distributed approach called event-driven microservices.
+Taking the innate characteristics of BD into consideration, one should pay clear attention to quality attributes (Cloutier et al. 2010). Quality attributes help identify architectural requirements and key drives.
+
+% and these requirements in turn result in appropriate patterns and tactics.
+
+For the purposes of this software RA, the main quality attributes chosen are modularity, extendibility, modifiability, scalability, maintainability and debuggability.
+
+% These attributes are achieved through a decentralized and distributed approach called event-driven microservices.
 
 \subsection{From monolith to microservices}
 Recent approaches to software architecture tends towards increases in modularity and clearly defined boundaries \cite{Jamshidi}. The benefits derived of this shift sees organizations moving to design architectures as series of inter-communicating, yet independent services. Benefits include lower maintenance costs, increased ownership, more agile development, and better support for DevOps, versioning, and scaling \cite{Fritzsch}
@@ -147,9 +144,9 @@ Most legacy systems today run on some kind of monolithic architecture. As monoli
 
 In addition, many monolithic systems are not integrated with recent cloud technologies and DevOps trends, for example introducing change or modification to an existing module is prone to side-effects and hard-to-find bugs \cite{Bass,Fritzsch}. Teams are not hundred percent autonomous and holocracy, if it has been adopted, is compromised.
 
-Most RAs and architectural patterns considered for this study have been designed with no attention to microservices. For instance, Lambda (\cite{Villari}) addresses speed, batches, and serving layers. The serving layer addresses the volume characteristics of big data by storing large amounts of heterogonous data in the master dataset.Velocity is addressed by having two different approaches to data processing, speed, and batch processing. While the speed layer usually deals with streams of data that need to be processed in real-time, the batch layer forwards data to the serving layer, and then batch views to allow query processing. Bolster \cite{Nadal} augments this architecture by adding a semantic layer which supports metadata.
+Most RAs and architectural patterns considered for this study have been designed with no attention to microservices. For instance, Lambda (\cite{Villari}) addresses speed, batches, and serving layers. The serving layer addresses the volume characteristics of BD by storing large amounts of heterogonous data in the master dataset.Velocity is addressed by having two different approaches to data processing, speed, and batch processing. While the speed layer usually deals with streams of data that need to be processed in real-time, the batch layer forwards data to the serving layer, and then batch views to allow query processing. Bolster \cite{Nadal} augments this architecture by adding a semantic layer which supports metadata.
 
-Meanwhile, the NIST Big Data RA \cite{Chang} is the most comprehensive big data RA found in the SLR. The RA is delineated in terms of fabrics, providers, and services. Withall, we could not identify the notion of independent services or clearly defined contexts for the services. Along the lines, there is the pattern based approach conducted by Stricker et al. (\cite{Stricker}) that is heavily inspired by the works of Gamma et al (\cite{Gamma}).
+Meanwhile, the NIST BD RA \cite{Chang} is the most comprehensive BD RA found in the SLR. The RA is delineated in terms of fabrics, providers, and services. Withall, we could not identify the notion of independent services or clearly defined contexts for the services. Along the lines, there is the pattern based approach conducted by Stricker et al. (\cite{Stricker}) that is heavily inspired by the works of Gamma et al (\cite{Gamma}).
 
 \subsection{The microservices challenge}
 
@@ -220,7 +217,7 @@ The event backbone is the sole controller of communication between services, thr
 
 \textbf{Semantic Layer}: This service mesh is the central hub for all metadata processing, containing the MetaData Management (MDM) system. The MDM is responsible for providing services with information to define and model raw data. This is where a domain vocabulary is defined and controlled by data stewards. The semantic layer provides the opportunity to store metadata, preparation rules, and data evolution and reduces the need for the data analyst or scientist to repeat work. Other semantic practices such as data source register, data transformation log, data cleaning, discretization are also catered for.
 
-\textbf{Policy Manager}: This service mesh is responsible for applying or checking policies about input data. In recent years, data privacy has presented as a challenge in big data management (Bashari Rad et al. 2016), so the policy manager aligns policies with various contexts to determine how data should be retrieved or processed, without significant coupling to the system. As the number of policies increase and are developed, more services can be added to this service mesh. The need for a new policy manager service mesh ought to be rare.
+\textbf{Policy Manager}: This service mesh is responsible for applying or checking policies about input data. In recent years, data privacy has presented as a challenge in BD management (Bashari Rad et al. 2016), so the policy manager aligns policies with various contexts to determine how data should be retrieved or processed, without significant coupling to the system. As the number of policies increase and are developed, more services can be added to this service mesh. The need for a new policy manager service mesh ought to be rare.
 
 \textbf{Query Controller}: This service determines the type of query received (stream, batch, or other) that come from the gateway and dispatches the event to the query engine. The controller performs straight forward pre-processing or sanitization as required but heavy computation should be avoided.
 
@@ -233,7 +230,7 @@ Gateway, event backbone service, microservices and event archive are required if
 
 Variable services provided that  a context is maintainable, in which the data lake, stream processing service mesh, batch processing service mesh, controller services (batch, stream, query) and query engine are variable and can be substituted to meet contextual demands.
 
-Optional services include sidecars, control towers, event queue, cache manager services, service discovery service, monitoring service, semantic layer service mesh, and policy manager service mesh. A semantic service mesh and policy manager service mesh provides a solution for privacy and metadata issues in big data systems. An architect may implement a semantic service mesh but must determine if the company cope with the complexity.
+Optional services include sidecars, control towers, event queue, cache manager services, service discovery service, monitoring service, semantic layer service mesh, and policy manager service mesh. A semantic service mesh and policy manager service mesh provides a solution for privacy and metadata issues in BD systems. An architect may implement a semantic service mesh but must determine if the company cope with the complexity.
 
 \section{Evaluation}
 
@@ -254,7 +251,7 @@ The policy manager performs internal processing and decides if a property should
 
 \section{Conclusion}
 
-As data-oriented technologies emerge, long-established ideologies toward the nature of system design and architecture are revolutionized. Companies are required to be prepared to tackle the apparent difficulty of this field and absorb the complexity. RAs provide a starting point to manage the complexity of big data. In the case of ambiguity towards what should be developed against need, architectures play an overarching role in describing the building blocks of the system and the ways in which blocks communicate to achieve the goals of the system. Future work on Neomycelia and other RAs address security concerns and creating more complex and distributed metadata management technologies.
+As data-oriented technologies emerge, long-established ideologies toward the nature of system design and architecture are revolutionized. Companies are required to be prepared to tackle the apparent difficulty of this field and absorb the complexity. RAs provide a starting point to manage the complexity of BD. In the case of ambiguity towards what should be developed against need, architectures play an overarching role in describing the building blocks of the system and the ways in which blocks communicate to achieve the goals of the system. Future work on Neomycelia and other RAs address security concerns and creating more complex and distributed metadata management technologies.
 
 % ---- Bibliography ----
 \bibliographystyle{splncs04}
