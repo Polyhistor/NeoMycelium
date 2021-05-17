@@ -141,7 +141,6 @@ Taking the innate characteristics of big data into consideration, one should pay
 For the purposes of this software RA, the main quality attributes chosen are modularity, extendibility, modifiability, scalability, maintainability and debuggability. These attributes are achieved through a decentralized and distributed approach called event-driven microservices. In the following sections, event-driven microservices will be discussed and justified.
 
 \subsection{From monolith to microservices}
-
 Recent approaches to software architecture tends towards increases in modularity and clearly defined boundaries \cite{Jamshidi}. The benefits derived of this shift sees organizations moving to design architectures as series of inter-communicating, yet independent services. Benefits include lower maintenance costs, increased ownership, more agile development, and better support for DevOps, versioning, and scaling \cite{Fritzsch}
 
 Most legacy systems today run on some kind of monolithic architecture. As monolithic applications grow, complexity and overheads increase, making maintenance a daunting task. Adopting new technologies in monolithic systems is difficult and if there exist design changes, the development team may need to put an immense amount of effort to meet new requirements.
@@ -185,9 +184,11 @@ Furthermore, there was no evidence of an RA that provides for data caching. Avoi
 
 
 \begin{figure}
-    \includegraphics[width=\textwidth]{Neomycelia.png}
+    \includegraphics[width=\textwidth]{Neomycelia.eps}
     \caption{Neomycelia Software Reference Architecture.} \label{NeomyceliaFig}
 \end{figure}
+
+\subsection{Components}
 
 Neomycelia is comprised of 14 essential architectural components. The terms node, and service are used interchangeably.
 
@@ -227,7 +228,14 @@ The event backbone is the sole controller of communication between services, thr
 
 \textbf{Query Engine}: This service processes query requests. Once values are created, an event is dispatched the subsequent service to return results.
 
-Neomycelia components are classified as required, variable, and optional. Neomycelia is governed by a strict decoupling rule, such that the removal of any service shall not affect other services. Gateway, event backbone, and event archive are required if the architect decides to adhere to the decoupling rule. However, an architect can decide to utilize another method of communication like orchestrated events or point-to-point protocol. The required service gateway provides load balancing, security, lower cumulative latencies, and code simplification. The required service event backbone provides communication between services. The required service event archive is a retry/fail mechanism for the event backbone. Variable services provided that a context is maintainable, in which the service mesh, controllers, monitoring and service discovery services are variable and can be substituted to meet contextual demands. Optional services include sidecars, control towers, event queues, cache manager services, service discovery service, monitoring service, semantic layer service mesh, and policy manager service mesh. A semantic service mesh and policy manager service mesh provides a solution for privacy and metadata issues in big data systems. An architect may implement a semantic service mesh but must determine if the company cope with the complexity.
+\subsection{Variability}
+Neomycelia components are classified as required, variable, and optional. This RA is governed by a strict decoupling rule, such that the removal of any service shall not affect other services.
+
+Gateway, event backbone service, microservices and event archive are required if the architect decides to adhere to the decoupling rule. However, an architect can decide to utilize another method of communication like orchestrated events or point-to-point protocol.The required service gateway provides load balancing, security, lower cumulative latencies, and code simplification. The required service event backbone provides communication between services. The required service event archive is a retry/fail mechanism for the event backbone.
+
+Variable services provided that  a context is maintainable, in which the data lake, stream processing service mesh, batch processing service Mesh, controller services (batch, stream, query) and query engine are variable and can be substituted to meet contextual demands.
+
+Optional services include sidecars, control towers, event queue, cache manager services, service discovery service, monitoring service, semantic layer service mesh, and policy manager service mesh. A semantic service mesh and policy manager service mesh provides a solution for privacy and metadata issues in big data systems. An architect may implement a semantic service mesh but must determine if the company cope with the complexity.
 
 \section{Evaluation}
 
