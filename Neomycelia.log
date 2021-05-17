@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  17 MAY 2021 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.1)  17 MAY 2021 21:30
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/Neomycelia.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/Neomycelia.tex"
@@ -204,17 +204,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 34.
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 34.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 34.
+ [1
 
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+Underfull \vbox (badness 3601) has occurred while \output is active []
 
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 34.
-
-[1
-
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7]
+ [4] [5] [6] [7]
 Package epstopdf Info: Source file: <Neomycelia.eps>
 (epstopdf)                    date: 2021-05-17 18:41:11
 (epstopdf)                    size: 4143194 bytes
@@ -227,7 +222,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2021 - Big Data Ra/latex-format/Neomycelia-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Neomycelia-eps-converted-to.pdf, id=32, 1737.49126pt x 1075.01625pt>
+<Neomycelia-eps-converted-to.pdf, id=30, 1737.49126pt x 1075.01625pt>
 File: Neomycelia-eps-converted-to.pdf Graphic file (type pdf)
 <use Neomycelia-eps-converted-to.pdf>
 Package pdftex.def Info: Neomycelia-eps-converted-to.pdf  used on input line 182.
@@ -242,23 +237,19 @@ Overfull \hbox (8.65419pt too wide) in paragraph at lines 222--223
 []\OT1/cmr/bx/n/10 Query Con-troller\OT1/cmr/m/n/10 : This ser-vice de-ter-mines the type of query re-ceived (stream,
  []
 
-[11] [12] [13] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.bbl" [14] [15]) [16] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.aux")
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+[11] [12] [13] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.bbl" [14] [15]) [16] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.aux") ) 
 Here is how much of TeX's memory you used:
- 1653 strings out of 480795
- 23354 string characters out of 2913778
+ 1640 strings out of 480795
+ 23213 string characters out of 2913778
  270132 words of memory out of 3000000
- 17684 multiletter control sequences out of 15000+200000
- 535222 words of font info for 34 fonts, out of 3000000 for 9000
+ 17675 multiletter control sequences out of 15000+200000
+ 534800 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,6n,25p,1230b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.pdf" (16 pages, 191384 bytes).
+ <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2021 - Big Data Ra\latex-format\Neomycelia.pdf" (16 pages, 173395 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
